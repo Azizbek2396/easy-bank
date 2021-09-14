@@ -1,0 +1,31 @@
+@import url(variables.css);
+
+@font-face {
+  font-family: 'PublicSans-Regular';
+  src: url(/fonts/PublicSans-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: 'PublicSans-Regular' !important;
+  line-height: 1.6;
+}
+
+.nav-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: -0.107692px;
+  color: var(--dim-silver) !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: var(--demin) !important;
+}
